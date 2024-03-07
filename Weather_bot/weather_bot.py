@@ -3,8 +3,8 @@ import urllib.request
 import json
 import urllib.parse
 
-bot = telebot.TeleBot("5890451657:AAGhICqq2wJCbg5oc3DL6CCte965_bO7MLc")
-API = 'ff6275d9ae24d29cfd3404474a66346e'
+bot = telebot.TeleBot("YOUR_BOT_TOKEN")
+API = 'YOUR_API_KEY'
 
 def get_weather(city):
     try:
