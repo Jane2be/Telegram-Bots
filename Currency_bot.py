@@ -4,7 +4,7 @@ from telebot import types
 
 amount = 0
 
-bot = telebot.TeleBot("5890451657:AAGhICqq2wJCbg5oc3DL6CCte965_bO7MLc")
+bot = telebot.TeleBot("OUR_BOT_TOKEN")
 currency = CurrencyConverter()
 
 @bot.message_handler(commands=["start"])
