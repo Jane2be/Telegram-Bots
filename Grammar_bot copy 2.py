@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from random import choice
 
-bot = telebot.TeleBot("6892247373:AAGtIqlF7CtJl69GHH-cG1TtSms0hCdEzhI")
+bot = telebot.TeleBot("OUR_BOT_TOKEN")
 
 #проверка типа файла
 @bot.message_handler(content_types=["photo", "video", "audio"])
